@@ -1,0 +1,81 @@
+table {
+    /* border: 1 solid black; */
+    width: 800px;
+    height: 500px;
+    border-spacing: 0;
+    text-align: center;
+    padding-left: 45px;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+td.gray, th.gray  {
+    background-color: gray
+}
+
+td.green, th.green {
+    background-color: greenyellow
+}
+
+td.blue, th.blue {
+    background-color: rgb(43, 213, 243)
+}
+
+td.yellow, th.yellow {
+    background-color: rgb(241, 135, 14)
+}
+
+td.red, th.red {
+    background-color: rgb(248, 70, 70)
+}
+
+th {
+    border-bottom: 2px solid white;
+}
+
+th, th {
+    width: 100px;
+}
+
+body {
+    text-align: center; 
+    /* display: inline-flex; */
+    
+}
+
+.test {
+    display: inline-flex;
+    width: 100%;
+}
+
+div {
+    
+    margin: 0 auto;
+    /* width: 80%; */
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    /* min-width: 700px;
+    max-width: 1200px; */
+    /* min-height: 200px; */
+}
+
+#exp {
+    border: 2px solid rgb(17, 233, 161);
+}
+#exp1 {
+    border: 2px dashed rgb(17, 233, 161);
+}
+#exp2 {
+    border: 2px dotted rgb(17, 233, 161);
+}
+#exp3 {
+    border: 2px double rgb(17, 233, 161);
+}
+#exp4 {
+    border: 2px ridge rgb(17, 233, 161);
+}
+#exp05 {
+    margin: 0 auto;
+}
